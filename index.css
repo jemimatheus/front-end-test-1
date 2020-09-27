@@ -1,0 +1,179 @@
+/* Header */
+
+.container_initial {
+    background-color: #fff;
+    color: #0C261C;
+}
+
+
+.img {
+    display: flex;
+    padding-top: 40px;
+    margin-left: 115px;
+    max-width: fit-content;
+}
+
+.title_text {
+    font-size: 4em;
+    display: flex;
+    align-items: center;
+    margin-left: 110px;
+    color: #0C261C;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    padding-bottom: 70px;
+    color: #797979;
+
+}
+
+.container img {
+    max-height: 62px;
+}
+
+select {
+    border-radius: 10px;
+    border-color: #A8A8A8;
+    width: 200px;
+    height: 25px;
+    border: 0.5;
+    color: #A8A8A8;
+    text-align: center;
+
+}
+
+.container_cards {
+    background-color: #F2F2F2;
+    color: #257556;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 0.5em;
+
+
+}
+
+
+.card {
+    display: grid;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 120px;
+    justify-content: space-around;
+    padding-bottom: 70px;
+    text-align: initial;
+    padding-top: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+border-radius: 10px;
+
+}
+
+
+.card_img {
+    height: 190px;
+    width: 200px;
+    padding-top: 30px;
+}
+
+.card_icons {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.card_price {
+    padding-right: 80px;
+}
+
+.card_icons img {
+    padding-right: 5px;
+}
+
+.card_eight .card_price {
+    color: #6E6E6E;
+    font-weight: normal;
+}
+
+.card_nine .card_price {
+    color: #6E6E6E;
+    font-weight: normal;
+}
+.select_footer {
+    
+display:flex;
+justify-content: center;
+flex-direction: row;
+}
+.select_footer_end {
+    border-radius: 10px;
+    border-color: #196146;
+    width: 500px;
+    height: 25px;
+    border: 0.5;
+    color: #196146;
+    text-align: end;
+    background-image:"";
+    background-repeat: no-repeat;
+    background-position: bottom 3px left 300px;
+  
+
+    
+}
+
+@media screen and (max-width:768px) {
+    .card {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        margin: auto;
+        padding-bottom: 70px;
+        text-align: initial;
+        padding-top: 50px;
+
+    }
+
+   
+}
+
+@media screen and (max-width:690px) {
+    .img {
+        margin-left: 50px;
+    }
+
+    .title_text {
+        margin-left: 30px;
+        font-size: 3em;
+    }
+
+    .options_img {
+        padding-top: 20px;
+    }
+
+    .card_icons img {
+        padding: auto;
+    }
+
+}
+
+@media screen and (max-width:420px) {
+    .title_text {
+        font-size: 1.5em;
+        padding-top: 20px;
+    }
+
+ .select_footer{
+     width: 100px;
+     display:flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: row;
+     margin-left: 70px;
+     }
+}
+
